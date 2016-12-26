@@ -152,7 +152,7 @@ app.service('craftsService', function () {
       {
           id: 14,
           name: 'Johnny Depp',
-          img: 'img/IMG_3112.jpg',
+          img: 'img/IMG_3132.jpg',
           description: 'Johnny Depp, wifebeater forever',
           longer_description: '',
           craft_used: 'Wood, wine (for staining), glue'
