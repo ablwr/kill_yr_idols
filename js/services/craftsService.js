@@ -81,7 +81,7 @@ app.service('craftsService', function () {
           id: 6,
           name: 'Christian Slater',
           img: 'img/IMG_3113.jpg',
-          description: 'Christian Slater punched his girlfriend in the face repeatedly. He went to jail for three months',
+          description: 'Christian Slater punched his girlfriend in the face repeatedly. He went to jail for three months.',
           longer_description: '',
           craft_used: 'Alphabet beads'
       },
@@ -247,14 +247,6 @@ app.service('craftsService', function () {
           craft_used: 'Perler beads, embroidery thread'
       },
       {
-          id: 30,
-          name: 'Errol Flynn',
-          img: 'img/IMG_3649.jpg',
-          description: 'Errol Flynn / Underage girls',
-          longer_description: '',
-          craft_used: 'Earring hooks, alphabet beads, jewelry thread'
-      },
-      {
           id: 32,
           name: 'Steven Seagal',
           img: 'img/IMG_3653.jpg',
@@ -269,6 +261,14 @@ app.service('craftsService', function () {
           description: 'Jean Claude Van Damme beat up his wife',
           longer_description: '',
           craft_used: 'Linoleum, chisel knives'
+      },
+      {
+          id: 30,
+          name: 'Errol Flynn',
+          img: 'img/IMG_3649.jpg',
+          description: 'Errol Flynn / Underage girls',
+          longer_description: '',
+          craft_used: 'Earring hooks, alphabet beads, jewelry thread'
       },
       {
           id: 15,

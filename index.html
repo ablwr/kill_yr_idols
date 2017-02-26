@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html data-ng-app="craftsApp">
   <head>
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,700,300' rel='stylesheet' type='text/css'>
     <meta charset="utf-8" />
-
     <title>Kill! Your! Idols!</title>
-
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.min.js"></script>
-
     <script src="js/app.js"></script>
     <script src="js/controllers/controllers.js"></script>
     <script src="js/services/craftsService.js"></script>
-
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-xs-6 intro" style="padding-bottom:36px;">
+        <div class="col-md-6 col-xs-6 intro" style="padding-bottom:36px;padding-top:36px;">
           <h1>Hey.</h1>
-          <p>I feel the weight now more than ever.</p>
-          <p>We are so deeply nested in this culture of simultaneous celebrity worship and reaffirmed allegiance to gender-based violence manifested in myriad forms. Having started this project initially in 2013 but primarily acted-upon in late 2015 and throughout 2016, and writing this in the final week of 2016, the foreboding really stings.</p>
-          <p>Why do abusers proliferate? How is the cult of celebrity so strong that even those committing the worst acts against others are so easily forgiven, past-forgotten, or worse, declared excusable due to 'artistic merit'? I know why but I don't know why. I have no answers, and at times it is difficult to see a path forward.</p>
-          <p>Outside of the context of celebrities who are also shitty humans, through this project (and others) I want to understand and feel the difficulty associated with devalued traditional women’s "craftwork." From physical pain, mostly back and shoulder pain, but also occasionally needles jabbing into my fingers, to emotional pain -- the frustration of working for an hour but spotting an error and having to undo all previous work. Craft work is real work. But the history and context of that subject has been better articulated by others in <a target="_blank" href="http://www.worldcat.org/title/subversive-stitch-embroidery-and-the-making-of-the-feminine/oclc/843882861&referer=brief_results">The Subversive Stitch</a> as well as <a target="_blank" href="https://www.upress.umn.edu/book-division/books/string-felt-thread">String, Felt Thread</a>.</p>
-          <p>Supplementally if you want to think about it as "art therapy," you’d be right. I’m able to spend a lot of time working through not having the power to stop people in my professional or personal life for their actions against myself or others. I think the process itself is very therapeutic in that so much of craft art is meditative, requiring precise, repeated motions. There’s also this sense of power and growth I feel from doing tasks that I originally learned as a child (or wanted to learn as a child) and having it feel so much easier to accomplish. At least individual growth is still possible, even when the light seems so dim.</p>
-          <p><strong>Anyway.</strong></p>
+          <div type="button" class="btn" data-toggle="collapse" data-target="#words">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <strong>[ Click for contextual statement ]</strong>
+            <span class="glyphicon glyphicon-align-left"></span>
+          </div>
+          <div id="words" class="collapse">
+            <p>I feel the weight now more than ever.</p>
+            <p>We are so deeply nested in this culture of simultaneous celebrity worship and reaffirmed allegiance to gender-based violence manifested in myriad forms. Having started this project initially in 2013 but primarily acted-upon in late 2015 and throughout 2016, and writing this in the final week of 2016, the foreboding really stings.</p>
+            <p>Why do abusers proliferate? How is the cult of celebrity so strong that even those committing the worst acts against others are so easily forgiven, past-forgotten, or worse, declared excusable due to 'artistic merit'? I know why but I don't know why. I have no answers, and at times it is difficult to see a path forward.</p>
+            <p>Outside of the context of celebrities who are also shitty humans, through this project (and others) I want to understand and feel the difficulty associated with devalued traditional women’s "craftwork." From physical pain, mostly back and shoulder pain, but also occasionally needles jabbing into my fingers, to emotional pain -- the frustration of working for an hour but spotting an error and having to undo all previous work. Craft work is real work. But the history and context of that subject has been better articulated by others in <a target="_blank" href="http://www.worldcat.org/title/subversive-stitch-embroidery-and-the-making-of-the-feminine/oclc/843882861&referer=brief_results">The Subversive Stitch</a> as well as <a target="_blank" href="https://www.upress.umn.edu/book-division/books/string-felt-thread">String, Felt Thread</a>.</p>
+            <p>Supplementally if you want to think about it as "art therapy," you’d be right. I’m able to spend a lot of time working through not having the power to stop people in my professional or personal life for their actions against myself or others. I think the process itself is very therapeutic in that so much of craft art is meditative, requiring precise, repeated motions. There’s also this sense of power and growth I feel from doing tasks that I originally learned as a child (or wanted to learn as a child) and having it feel so much easier to accomplish. At least individual growth is still possible, even when the light seems so dim.</p>
+          </div>
+          <p>Anyway.</p>
         </div>
       </div>
       <div class="row">
@@ -48,9 +50,9 @@
                   <div class="modal-content">
                     <a href="{{craft.url}}"><img src="{{craft.img}}" alt="image" /></a>
                     <h2>{{craft.name}}</h2>
-                    <p><strong>{{craft.description}}</strong></p>
-                    <p>{{craft.longer_description}}</p>
-                    <p><strong>Craft:</strong> {{craft.craft_used}}</p>
+                    <p class="text-center"><i>{{craft.description}}</i></p>
+                    <p class="text-center">{{craft.longer_description}}</p>
+                    <p class="text-right"><strong>Craft:</strong> {{craft.craft_used}}</p>
                   </div>
                 </div>
               </div>
