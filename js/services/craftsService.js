@@ -54,12 +54,12 @@ app.service('craftsService', function () {
           craft_used: 'Paint, tie'
       },
       {
-          id: 19,
-          name: 'Sid Vicious',
-          img: 'img/IMG_3115.jpg',
-          description: 'Sid killed Nancy',
+          id: 31,
+          name: 'Alfred Hitchcock',
+          img: 'img/IMG_3650.jpg',
+          description: 'Alfred Hitchcock was a possessive manipulative monster',
           longer_description: '',
-          craft_used: 'Buttons, permanent marker'
+          craft_used: 'Bell jar charm, alphabet beads, jewelry thread'
       },
       {
           id: 3,
@@ -134,6 +134,14 @@ app.service('craftsService', function () {
           craft_used: 'Tattoo practice skin, India ink, needle'
       },
       {
+          id: 23,
+          name: 'Victor Salva',
+          img: 'img/IMG_3639.jpg',
+          description: 'Victor Salva was convicted of child molestation and still has a career',
+          longer_description: '',
+          craft_used: 'Crayola Model Magic, Elmers glue'
+      },
+      {
           id: 12,
           name: 'Louis C.K.',
           img: 'img/IMG_3125.jpg',
@@ -150,20 +158,28 @@ app.service('craftsService', function () {
           craft_used: 'Beads, alphabet beads, beading loom'
       },
       {
+          id: 19,
+          name: 'Sid Vicious',
+          img: 'img/IMG_3115.jpg',
+          description: 'Sid killed Nancy',
+          longer_description: '',
+          craft_used: 'Buttons, permanent marker'
+      },
+      {
+          id: 25,
+          name: 'Pablo Picasso',
+          img: 'img/IMG_3641.jpg',
+          description: 'Pablo Picasso was a misogynist!',
+          longer_description: '',
+          craft_used: 'Acrylic paint, canvas, pen'
+      },
+      {
           id: 14,
           name: 'Johnny Depp',
           img: 'img/IMG_3132.jpg',
-          description: 'Johnny Depp, wifebeater forever',
+          description: 'Johnny Depp is a wifebeater forever',
           longer_description: '',
           craft_used: 'Wood, wine (for staining), glue'
-      },
-      {
-          id: 15,
-          name: 'Mel Gibson',
-          img: 'img/IMG_3127.jpg',
-          description: 'Mel Gibson beat his girlfriend',
-          longer_description: '',
-          craft_used: 'Flower headband, wooden letters, glue'
       },
       {
           id: 20,
@@ -174,6 +190,47 @@ app.service('craftsService', function () {
           craft_used: 'Embroidery'
       },
       {
+          id: 22,
+          name: 'Mike Tyson',
+          img: 'img/IMG_3109.jpg',
+          description: 'Mike Tyson / Total asshole',
+          longer_description: '',
+          craft_used: 'Wax, x-acto knife'
+      },
+      {
+          id: 24,
+          name: 'William S. Burroughs',
+          img: 'img/IMG_3640.jpg',
+          description: 'William S. Burroughs killed his wife',
+          longer_description: '',
+          craft_used: 'Construction paper, x-acto knife'
+      },
+
+      {
+          id: 26,
+          name: 'J. J. Paulsen',
+          img: 'img/IMG_3643.jpg',
+          description: 'J.J. Paulsen beat his wife to death and hid her body in an attic',
+          longer_description: '',
+          craft_used: 'Acrylic paint, mug'
+      },
+      {
+          id: 27,
+          name: 'Don Henley',
+          img: 'img/IMG_3644.jpg',
+          description: 'Don Henley drugged two teen girls',
+          longer_description: '',
+          craft_used: 'Embroidery thread'
+      },
+      {
+          id: 28,
+          name: 'R. Kelly',
+          img: 'img/IMG_3645.jpg',
+          description: 'R Kelly has raped many underage women',
+          longer_description: '',
+          craft_used: 'Embroidery thread, alphabet beads'
+      },
+      {
           id: 21,
           name: 'Ike Turner',
           img: 'img/IMG_3147.jpg',
@@ -182,12 +239,44 @@ app.service('craftsService', function () {
           craft_used: 'Embroidery'
       },
       {
-          id: 22,
-          name: 'Mike Tyson',
-          img: 'img/IMG_3109.jpg',
-          description: 'Mike Tyson is an asshole',
+          id: 29,
+          name: 'Ian Watkins',
+          img: 'img/IMG_3647.jpg',
+          description: 'Ian Watkins is a pedophile',
           longer_description: '',
-          craft_used: 'Wax, x-acto knife'
+          craft_used: 'Perler beads, embroidery thread'
+      },
+      {
+          id: 30,
+          name: 'Errol Flynn',
+          img: 'img/IMG_3649.jpg',
+          description: 'Errol Flynn / Underage girls',
+          longer_description: '',
+          craft_used: 'Earring hooks, alphabet beads, jewelry thread'
+      },
+      {
+          id: 32,
+          name: 'Steven Seagal',
+          img: 'img/IMG_3653.jpg',
+          description: 'Steven Seagal is a sexual predator ',
+          longer_description: '',
+          craft_used: 'Linoleum, chisel knives'
+      },
+      {
+          id: 33,
+          name: 'Jean Claude Van Damme',
+          img: 'img/IMG_3654.jpg',
+          description: 'Jean Claude Van Damme beat up his wife',
+          longer_description: '',
+          craft_used: 'Linoleum, chisel knives'
+      },
+      {
+          id: 15,
+          name: 'Mel Gibson',
+          img: 'img/IMG_3127.jpg',
+          description: 'Mel Gibson beat his girlfriend',
+          longer_description: '',
+          craft_used: 'Flower headband, wooden letters, glue'
       }
   ];
 });
