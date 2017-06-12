@@ -277,6 +277,14 @@ app.service('craftsService', function () {
           description: 'Mel Gibson beat his girlfriend',
           longer_description: '',
           craft_used: 'Flower headband, wooden letters, glue'
-      }
+      },
+      {
+          id: 34,
+          name: 'Jimmy Page',
+          img: 'img/IMG_4543.jpg',
+          description: 'Jimmy Page kidnapped a 14 year old girl so he could fuck her',
+          longer_description: '',
+          craft_used: 'Tie-dye, sharpie pen'
+      },
   ];
 });
