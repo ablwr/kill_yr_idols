@@ -285,6 +285,6 @@ app.service('craftsService', function () {
           description: 'Jimmy Page kidnapped a 14 year old girl so he could fuck her',
           longer_description: '',
           craft_used: 'Tie-dye, sharpie pen'
-      },
+      }
   ];
 });
